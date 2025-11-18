@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Cómo funcionan los feeds tipo Twitter",
+    "summary": "Una explicación corta de cómo se estructura un feed moderno.",
+    "content": "Contenido completo del artículo..."
+  },
+  {
+    "id": 2,
+    "title": "Por qué Substack usa un modelo híbrido",
+    "summary": "Resumen técnico del modelo Substack.",
+    "content": "Artículo completo..."
+  }
+]
