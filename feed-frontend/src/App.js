@@ -1,5 +1,5 @@
 import React from "react";
-import ArticleFeed from "./components/Articlefeed";
+import ArticleFeed from "./components/ArticleFeed";
 
 function App() {
   return (
@@ -18,4 +18,5 @@ function App() {
 }
 
 export default App;
+
 
