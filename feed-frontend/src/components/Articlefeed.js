@@ -5,7 +5,7 @@ function ArticleFeed() {
   const [selected, setSelected] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/articles') // Cambiar a la URL de Render si despliegas
+    fetch('https://feed-backend-3g55.onrender.com/api/articles') // Cambiar a la URL de Render si despliegas
       .then(res => res.json())
       .then(data => setArticles(data));
   }, []);
