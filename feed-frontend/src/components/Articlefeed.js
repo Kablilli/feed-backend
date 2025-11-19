@@ -4,8 +4,7 @@ function ArticleFeed() {
   const [articles, setArticles] = useState([]);
   const [selected, setSelected] = useState(null);
 
-  // Cambia esta URL por la de tu backend en Render
-  const backendURL = "https://feed-backend.onrender.com";
+  const backendURL = "https://feed-backend.onrender.com"; // tu backend desplegado
 
   useEffect(() => {
     fetch(`${backendURL}/api/feed`)
@@ -51,4 +50,5 @@ function ArticleFeed() {
 }
 
 export default ArticleFeed;
+
 
